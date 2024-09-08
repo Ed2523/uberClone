@@ -48,3 +48,11 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## Naming convention
+
+All component files and functions will use PascalCase (e.g., UserProfile.tsx, HomeScreen.tsx).
+
+For route files, especially with expo-router, we'll use lowercase (e.g., login.tsx, profile.tsx) for consistent URL paths, while the components within them remain PascalCase. Utility and helper files will follow camelCase (e.g., apiUtils.ts, fetchData.js).
+
+This approach will keep the codebase clean and uniform.
